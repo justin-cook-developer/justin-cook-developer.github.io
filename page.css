@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+}
+hr {
+    display: block;
+    height: 3px;
+    background-color: black;
+}
+
+/* div wraps all content on page*/
+#content {
+    margin: auto;
+    width: 90%;
+}
+/*just applies to header tag*/
+header {
+    text-align: center;
+    font-family: 'Lobster', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #262626;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 5%;
+}
+
+
+/*Used for all subtitles in each outer div(intro, hs, sale, etc)*/
+.subtitle {
+    text-align: center;
+    font-family: 'Cinzel', sans-serif;
+}
+/*Used for subtitles in story-line divs(hs, college, summer)*/
+.subtitle h3 {
+    font-size: 1.8em;
+}
+/*Used for every large paragraph of text in each div*/
+.paragraph {
+    font-size: 1.1em;
+    line-height: 1.em;
+    margin: auto;
+    width: 90%;
+    text-align: justify;
+    float: none;
+}
+/* wraps the content in each outer div*/
+.inner-content {
+    margin: auto;
+    margin-bottom: 1.2em;
+}
+/* applies to #intro and #sale*/
+.important-box {
+    border: 2px #ff6700 solid;
+    border-radius: 3%;
+    margin: auto;
+}
+/*applies to remaining outer divs(hs,coll,summ)*/
+.box {
+    border: 2px blue solid;
+    border-radius: 3%; 
+    margin: auto;
+}
+/*div to contain the left list and right list*/
+.lists {
+    display: flex;
+    font-size: 1.1em;
+}
+/* div for left list*/
+.left {
+    margin-left: 5%;
+    width: 50%;
+    flex: 1;
+}
+/* div for right list*/
+.right {
+    margin-left: 5%;
+    width: 50%;
+    flex: 1;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: red;
+}
+
+
+
+/*applies to footer*/
+footer {
+    margin-top: 1.5%;
+    text-align: center;
+}
